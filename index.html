@@ -20,19 +20,21 @@
                     <div>Shishir Pathak</div>
                     <div class="line">Fronted Developer</div>
                 </div>
+                <label for="hamMenu"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="hamMenu">
                 <div class="menu">
                     <ul class="flex navigation">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Skills</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
           </header>
           <!-- hero section -->
-           <section class="hero-section container">
+           <section class="hero-section container" id="hero">
             <div class="grid hero">
                 <div class="left flex">
                     <div>
@@ -90,7 +92,7 @@
                 
             </section>
             <!-- skillssection -->
-           <div class="skills">
+           <div class="skills" id="skills">
             <h2 class="title">
                 <span>Skills</span>
             </h2>
@@ -128,7 +130,7 @@
             </div>
            </div>
              <!-- projectsection -->
-              <section class="projects container">
+              <section class="projects container" id="project">
                 <h2 class="title">
                     <span> Projects</span>
                 </h2>
@@ -191,7 +193,7 @@
                 </div>
               </section>
               <!-- aboutsection -->
-               <section class="about">
+               <section class="about" id="about">
                 <h2 class="title">
                     <span>About Me</span>
                 </h2>
@@ -214,7 +216,7 @@
                 </div>
                </section>
                <!-- contact section -->
-                <section class="contact container">
+                <section class="contact container" id="contact">
                     <h2 class="title">
                         <span> Contact</span>
                     </h2>
@@ -226,16 +228,45 @@
                     </div>
                     <h3>OR</h3>
                     <div class="flex-center">
-                        <a href="" class="email-section">
-                            <span>Please enter your email</span>
-                            <div class="email">
+                        <a href="" class="email-section flex-center">
+                            <span>Enter your email</span>
+                            <div class="email flex-center">
                                 <i class="fa-solid fa-paper-plane"></i>
                             </div>
                         </a>
                     </div>
                 </section>
                 <!-- footersection -->
-                 <footer>Coming....</footer>
+                 <footer class="flex-center">
+                    <div class="top flex">
+                        <div class="links">
+                            <h3>Links</h3>
+                            <ul>
+                                <li><a href="#hero">Home</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#project">Projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="socials">
+                            <h3>SocialMedias</h3>
+                            <ul>
+                                <li><a href="">Linkedin</a></li>
+                                <li><a href="">Github</a></li>
+                                <li><a href="">Twitter</a></li>
+                                <li><a href="">Facebook</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="botton">
+                        &copy;Copy right all reserved 2024 made by Shishir 
+                    </div>
+
+                 </footer>
+                 <a href="#hero">
+                    <div  class="goUp flex-center"><i class="fa-solid fa-up-long"></i></div>
+                
+                 </a>
     </div>
     
 </body>
